@@ -1,0 +1,10 @@
+use voluntarios;
+insert into voluntarios values (null,'112132312312','juan', 'perez','i21jw1iji29033j12');
+insert into voluntarios values (null,'112132312422','maria', 'zaragosa','12312jskdjqdji443');
+insert into post values (null,1,null, 'hello there','dsjadhajdhajwdawdwadwadawadawdawd',null);
+insert into post values (null,2,null, 'hello there2222222','d22222222222222sjadhajdhajwdawdwadwadawadawdawd',null);
+insert into post values (null,4,null, 'HELLO FROM candidato','Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper neque nibh, et tincidunt felis tincidunt id. In hac habitasse platea dictumst. Nunc ac ligula id quam tempor tincidunt vitae sed felis. Quisque justo mi, tempus ut turpis ut, pulvinar sagittis purus. Morbi in justo in eros sodales congue.',null);
+insert into post values (null,3,null, 'HELLO FROM other','Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper neque nibh, et tincidunt felis tincidunt id. In hac habitasse platea dictumst. Nunc ac ligula id quam tempor tincidunt vitae sed felis. Quisque justo mi, tempus ut turpis ut, pulvinar sagittis purus. Morbi in justo in eros sodales congue.',null);
+insert into likes values(null,0,1,1);
+insert into likes values(null,1,1,2);
+insert into likes values(null,1,2,2);

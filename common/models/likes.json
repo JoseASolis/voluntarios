@@ -1,0 +1,45 @@
+{
+  "name": "likes",
+  "options": {
+    "validateUpsert": true,
+    "idInjection": true,
+    "mysql": {
+      "schema": "voluntarios",
+      "table": "likes"
+    }
+  },
+  "properties": {
+    "liked": {
+      "type": "Boolean",
+      "required": true,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "liked",
+        "dataType": "tinyint",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+
+    }
+  },
+  "validations": [],
+  "relations": {
+    "voluntarios": {
+      "type": "belongsTo",
+      "model": "Voluntarios",
+      "foreignKey": "idVoluntario"
+    },
+    "posts": {
+      "type": "belongsTo",
+      "model": "post",
+      "foreignKey": "idPost"
+    }
+  },
+
+  "acls": [],
+  "methods": {}
+}

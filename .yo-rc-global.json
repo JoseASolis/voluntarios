@@ -1,0 +1,9 @@
+{
+  "generator-fireloop:1.0.0-beta.2.7": {
+    "promptValues": {
+      "sdkFeatures": [
+        "Enable PubSub + IO + FireLoop functionality"
+      ]
+    }
+  }
+}

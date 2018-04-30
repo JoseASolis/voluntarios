@@ -1,0 +1,12 @@
+{
+
+  "mysql_db": {
+    "host": "fenixdevdb.c5kr54clsiby.us-east-2.rds.amazonaws.com",
+    "port": 3306,
+    "database": "voluntarios",
+    "username": "angelfenix",
+    "password": "GloriateamO95",
+    "name": "mysql_db",
+    "connector": "mysql"
+  }
+}

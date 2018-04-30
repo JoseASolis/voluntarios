@@ -1,0 +1,27 @@
+{
+  "name": "admin",
+  "plural": "admins",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "usuario": {
+      "type": "string",
+      "required": true
+    },
+    "contrasena": {
+      "type": "string",
+      "required": true
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
